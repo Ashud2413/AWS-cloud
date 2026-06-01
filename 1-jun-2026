@@ -1,0 +1,24 @@
+2 hours - online session in mornming
+1hour -Aws
+2 hours -Ec2 install
+1 hour - git
+
+
+Tommorrow,Task
+will learn linux
+basic linuux installation
+Ec2 connect
+Git hub connection 
+
+
+
+name: install nginx on pathnex server
+hosts: all
+become:yes
+
+tasks:
+ -name: intall nhinx
+  yum:
+    name: nginx
+    state: present
+
